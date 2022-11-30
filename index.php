@@ -13,9 +13,9 @@ function getUserIpAddr(){
 }
 ?>
 <?php
-$apiKey = "c0c4a4b4047b97ebc5948ac9c48c0559";
+$apiKey = "c0c4a4b4047b97ebc5948ac9c48c0559"; //a random api key
 
-$cityId = "Olland, NL";
+$cityId = "(enter your city here)";
 $googleApiUrl = "http://api.openweathermap.org/data/2.5/weather?q=" . $cityId . "&lang=en&units=metric&APPID=" . $apiKey;
 
 $ch = curl_init();
